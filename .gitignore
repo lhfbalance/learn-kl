@@ -1,0 +1,8 @@
+/bin/
+*.out
+/*.txt
+/*.bat
+/*.xml
+/libs/
+/.settings/
+/jni/
