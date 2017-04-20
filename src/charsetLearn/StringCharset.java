@@ -16,7 +16,7 @@ public class StringCharset {
    * @throws UnsupportedEncodingException
    */
   public static void main(String[] args) throws UnsupportedEncodingException {
-    String string = "";
+    String string = "中华人民共和国";
     byte[] b1 = string.getBytes("UTF-8");
     System.out.println(b1.length);
     System.out.println("你好的UTF-8编码：");
@@ -45,7 +45,8 @@ public class StringCharset {
     System.out.println("");
     System.out.println("");
     System.out.println("1.GBK 2.default 3.UTF-8");
-    byte[] b3 = {-42, -48, -69, -86, -56, -53, -61, -15, -71, -78, -70, -51, -71, -6};
+    byte[] b3 = {-42, -48, -69, -86, -56, -53, -61, -15, -71, -78, -70, -51, -71, -6};//GBK
+    
     string = new String(b3, "GBK");
     System.out.println("1." + string);
     string = new String(b3);
