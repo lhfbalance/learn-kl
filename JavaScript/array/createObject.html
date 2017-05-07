@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta charset="utf-8"> 
+</head>
+<body>
+.
+.
+<script>
+'use strict'
+function Cat(name) {
+    this.name = name;
+}
+
+Cat.prototype.say = function() {
+ return 'Hello, ' + this.name + "!"
+};
+
+var kitty = new Cat('Kitty');
+var doraemon = new Cat('哆啦A梦');
+console.log(kitty.say());
+console.log(doraemon.say());
+
+console.log(kitty.say === doraemon.say);
+console.log(Cat.prototype.constructor === Cat)
+
+console.log(Object.getPrototypeOf(kitty) === Cat.prototype);
+console.log(Object.getPrototypeOf(doraemon) === Cat.prototype);
+console.log(kitty instanceof Cat);
+
+console.log(kitty.constructor === Cat.prototype.constructor);
+console.log(Cat.constructor);
+console.log(kitty.__proto__);
+</script>
+.
+.
+</body>
+</html>

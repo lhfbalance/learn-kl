@@ -1,0 +1,46 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>
+test explore
+</title> 
+</head>
+<body>
+.
+.
+<dl id="drink-menu" style="border:solid 1px #ccc;padding:6px;">
+    <dt>摩卡</dt>
+    <dd>热摩卡咖啡</dd>
+    <dt>酸奶</dt>
+    <dd>北京老酸奶</dd>
+    <dt>果汁</dt>
+    <dd>鲜榨苹果汁</dd>
+</dl>
+<script>
+'use strict'
+/*
+if (confirm('重新加载当前页' + location.href + '?')) {
+    location.reload();
+} else {
+    location.assign('/discuss'); // 设置一个新的URL地址
+}
+*/
+//console.log(document.title)
+var menu = document.getElementById('drink-menu');
+var drinks = document.getElementsByTagName('dt');
+var i, s, menu, drinks;
+
+menu = document.getElementById('drink-menu');
+menu.tagName; // 'DL'
+
+drinks = document.getElementsByTagName('dt');
+s = '提供的饮料有:';
+for (i=0; i<drinks.length; i++) {
+    s = s + drinks[i].innerHTML + ',';
+}
+alert(s);
+</script>
+.
+.
+</body>
+</html>

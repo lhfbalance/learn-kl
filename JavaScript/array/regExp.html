@@ -1,0 +1,47 @@
+<html>
+<head>
+<meta charset="utf-8"> 
+</head>
+<body>
+.
+.
+<script>
+'use strict'
+var s = 'JavaScript, VBScript, JScript and ECMAScript';
+var re=/jScript/gi;
+/*
+// 使用全局匹配:
+re.exec(s); // ['JavaScript']
+re.lastIndex; // 10
+
+re.exec(s); // ['VBScript']
+re.lastIndex; // 20
+
+re.exec(s); // ['JScript']
+re.lastIndex; // 29
+
+re.exec(s); // ['ECMAScript']
+re.lastIndex; // 44
+
+re.exec(s); // null，直到结束仍没有匹配到
+*/
+console.log(re.exec(s));
+console.log(re.lastIndex);
+console.log("--------------");
+console.log(re.exec(s));
+console.log(re.lastIndex);
+console.log("--------------");
+console.log(re.exec(s));
+console.log(re.lastIndex);
+console.log("--------------");
+console.log(re.exec(s));
+console.log(re.lastIndex);
+console.log("--------------");
+console.log(re.exec(s));
+console.log(re.lastIndex);
+console.log("--------------");
+</script>
+.
+.
+</body>
+</html>
