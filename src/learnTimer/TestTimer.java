@@ -3,6 +3,7 @@
  */
 package learnTimer;
 
+import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
 import java.util.concurrent.TimeUnit;
@@ -12,41 +13,55 @@ import java.util.concurrent.TimeUnit;
  *
  */
 public class TestTimer {
-  
+
   public static void main(String[] args) {
     Timer t = new Timer(false);
-    t.schedule(new MyTimerTask(1), 100, 1000);
-    t.schedule(new MyTimerTask(2), 200, 1000);
+
+    MyTimerTask1 task1 = new MyTimerTask1(1);
+    MyTimerTask1 task2 = new MyTimerTask1(2);
+    System.out.println(task1.scheduledExecutionTime());
+    t.schedule(task1, 100, 100000);
+    t.schedule(task2, 200, 100000);
+    try {
+      TimeUnit.SECONDS.sleep(2);
+    } catch (InterruptedException e) {
+      System.out.println("interrupted, break while(true)");
+    }
+    System.out.println(new Date(task1.scheduledExecutionTime()));
   }
-  
+
 
 }
 
-class MyTimerTask extends TimerTask {
-  
+
+class MyTimerTask1 extends TimerTask {
+
   private final int id;
-  
+
   /**
    * 
    */
-  public MyTimerTask(int identified) {
+  public MyTimerTask1(int identified) {
     this.id = identified;
   }
-  /* (non-Javadoc)
+
+  /*
+   * (non-Javadoc)
+   * 
    * @see java.util.TimerTask#run()
    */
   @Override
   public void run() {
-    while (true) {
-      System.out.println("#" + id + " running");
-      try {
-        TimeUnit.SECONDS.sleep(1);
-      } catch (InterruptedException e) {
-        System.out.println("interrupted, break while(true)");
-        break;
-      }
-    }
-    
-    
+    // while (true) {
+    System.out.println("#" + id + " running");
+    // try {
+    // TimeUnit.SECONDS.sleep(1);
+    // } catch (InterruptedException e) {
+    // System.out.println("interrupted, break while(true)");
+    // break;
+    // }
+    // }
+
+
   }
 }
