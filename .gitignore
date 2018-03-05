@@ -6,3 +6,7 @@
 /libs/
 /.settings/
 /jni/
+.DS_Store
+/.idea
+/.gradle
+*.iml

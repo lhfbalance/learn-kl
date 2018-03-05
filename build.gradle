@@ -1,0 +1,31 @@
+apply plugin: 'java'
+
+
+sourceCompatibility = 1.8
+
+def mvnPublicRep = 'http://192.168.109.63:8081/nexus/content/repositories/public/'
+def mvnSnapshotsRep = 'http://192.168.109.63:8081/nexus/content/repositories/snapshots/'
+
+def groupIdParam = 'kl.louhf'
+def artifactIdParam = 'learn'
+def versionParam = '1.0.0'
+
+repositories {
+    //mavenLocal()
+    maven { url mvnPublicRep }
+    maven { url mvnSnapshotsRep }
+}
+
+configurations.all {
+    //check for updates every build
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
+
+dependencies {
+    testCompile group: "junit", name: 'junit', version: '4.+'
+    compile group: 'kl.framework', name: 'kl_wof', version: '1.3.0'
+    compile group: 'org.snmp4j', name: 'snmp4j', version: '2.5.6'
+    compile group: 'redis.clients', name: 'jedis', version: '2.8.0'
+    compile group: 'com.sun.jna', name: 'jna', version: '3.0.9'
+
+}
