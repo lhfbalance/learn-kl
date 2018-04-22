@@ -65,9 +65,9 @@ public class TestStr {
   }
 
   public static int byte2int(byte[] res) {
-     // ä¸€ä¸ªbyteæ•°æ®å·¦ç§»24ä½å˜æˆ0x??000000ï¼Œå†å³ç§»8ä½å˜æˆ0x00??0000
-    //byte[] res æ˜¯ç½‘ç»œå­—èŠ‚åºï¼ˆå¤§ç«¯ï¼‰
-    int targets = (res[0] & 0xff) | ((res[1] << 8) & 0xff00) // | æŒ‰ä½æˆ–
+     // Ò»¸öbyteÊı¾İ×óÒÆ24Î»±ä³É0x??000000£¬ÔÙÓÒÒÆ8Î»±ä³É0x00??0000
+    //byte[] res ÊÇÍøÂç×Ö½ÚĞò£¨´ó¶Ë£©
+    int targets = (res[0] & 0xff) | ((res[1] << 8) & 0xff00) // | °´Î»»ò
         | ((res[2] << 24) >>> 8) | (res[3] << 24);
     return targets;
   }

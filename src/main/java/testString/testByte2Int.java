@@ -45,16 +45,12 @@ public class testByte2Int {
     }
 
     public static int byte2intBig(byte[] res) {
-       // 涓�涓猙yte鏁版嵁宸︾Щ24浣嶅彉鎴�0x??000000锛屽啀鍙崇Щ8浣嶅彉鎴�0x00??0000
-      //byte[] res 鏄綉缁滃瓧鑺傚簭锛堝ぇ绔級
-      int targets = (res[3] & 0xff) | ((res[2] << 8) & 0xff00) // | 鎸変綅鎴�
+      int targets = (res[3] & 0xff) | ((res[2] << 8) & 0xff00)
           | ((res[1] << 24) >>> 8) | (res[0] << 24);
       return targets;
     }
     public static int byte2int(byte[] res) {
-      // 涓�涓猙yte鏁版嵁宸︾Щ24浣嶅彉鎴�0x??000000锛屽啀鍙崇Щ8浣嶅彉鎴�0x00??0000
-     //byte[] res 鏄綉缁滃瓧鑺傚簭锛堝ぇ绔級
-     int targets = (res[0] & 0xff) | ((res[1] << 8) & 0xff00) // | 鎸変綅鎴�
+     int targets = (res[0] & 0xff) | ((res[1] << 8) & 0xff00)
          | ((res[2] << 24) >>> 8) | (res[3] << 24);
      return targets;
    }

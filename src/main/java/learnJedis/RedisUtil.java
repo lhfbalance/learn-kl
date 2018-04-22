@@ -7,6 +7,8 @@ import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
+import java.lang.reflect.Method;
+
 public final class RedisUtil {
 
   // Redis·þÎñÆ÷IP
@@ -75,6 +77,7 @@ public final class RedisUtil {
    * 
    * @param jedis
    */
+  @Deprecated
   public static void returnResource(final Jedis jedis) {
     if (jedis != null) {
       jedisPool.returnResource(jedis);

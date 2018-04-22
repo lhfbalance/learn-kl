@@ -16,10 +16,10 @@ public class StringCharset {
    * @throws UnsupportedEncodingException
    */
   public static void main(String[] args) throws UnsupportedEncodingException {
-    String string = "ä¸­åäººæ°‘å…±å’Œå›½";
+    String string = "ÖĞ»ªÈËÃñ¹²ºÍ¹ú";
     byte[] b1 = string.getBytes("UTF-8");
     System.out.println(b1.length);
-    System.out.println("ä½ å¥½çš„UTF-8ç¼–ç ï¼š");
+    System.out.println("ÄãºÃµÄUTF-8±àÂë£º");
     for (int i = 0; i < b1.length; i++) {
       System.out.print(b1[i] + ",");
     }
@@ -28,7 +28,7 @@ public class StringCharset {
 
     byte[] b2 = string.getBytes("GBK");
     System.out.println(b2.length);
-    System.out.println("ä½ å¥½çš„GBKç¼–ç ï¼š");
+    System.out.println("ÄãºÃµÄGBK±àÂë£º");
     for (int i = 0; i < b2.length; i++) {
       System.out.print(b2[i] + ",");
     }
@@ -37,7 +37,7 @@ public class StringCharset {
 
     byte[] bd = string.getBytes();//default
     System.out.println(bd.length);
-    System.out.println("ä½ å¥½çš„defaultç¼–ç ï¼š");
+    System.out.println("ÄãºÃµÄdefault±àÂë£º");
     for (int i = 0; i < bd.length; i++) {
       System.out.print(bd[i] + ",");
     }
