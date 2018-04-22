@@ -1,0 +1,59 @@
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+    address 192.168.238.9
+    netmask 255.255.255.0
+
+auto eth1
+iface eth1 inet static
+    address 192.168.191.7
+    netmask 255.255.255.0
+
+auto eth2
+iface eth2 inet static
+    address 192.168.192.7
+    netmask 255.255.255.0
+    mtu 1500
+
+auto eth3
+iface eth3 inet static
+    address 192.168.100.72
+    netmask 255.255.255.0
+    mtu 1500
+
+auto eth4
+iface eth4 inet static
+    address 192.168.194.7
+    netmask 255.255.255.0
+
+auto eth5
+iface eth5 inet static
+    address 192.168.195.7
+    netmask 255.255.255.0
+
+auto eth3:0
+iface eth3:0 inet static
+    address 192.168.102.72
+    netmask 255.255.255.0
+    mtu 1500
+#start of br0
+auto br0
+iface br0 inet static
+address 192.168.100.194
+network 192.168.100.0
+netmask 255.255.255.0
+broadcast 192.168.100.255
+mtu 1500
+
+# dynamic add brport
+# automatic add brport
+pre-up make -f /usr/local/gms/script/bridge.mk pre-up bridge=br0 ports=eth1,eth2 stp=off SHELL=/bin/bash
+post-up make -f /usr/local/gms/script/bridge.mk post-up bridge=br0 ports=eth1,eth2 stp=off SHELL=/bin/bash
+
+# dynamic del brport
+# automatic down brport
+pre-down make -f /usr/local/gms/script/bridge.mk pre-down bridge=br0 ports=eth1,eth2 stp=off SHELL=/bin/bash
+post-down make -f /usr/local/gms/script/bridge.mk post-down bridge=br0 ports=eth1,eth2 stp=off SHELL=/bin/bash
+#end of br0
