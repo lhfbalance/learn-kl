@@ -22,7 +22,9 @@ tasks.withType(JavaCompile) {
 
 configurations.all {
     //check for updates every build
-    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+    //resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+    //check for updates every day
+    resolutionStrategy.cacheChangingModulesFor 24, 'hours'
 }
 
 dependencies {
