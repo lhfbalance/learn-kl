@@ -1,0 +1,222 @@
+2018-05-19 09:52:32 [INFO ] learnlog4j.App (main:12) - here is info
+2018-05-19 09:52:32 [INFO ] learnlog4j.App (main:12) - here is info
+2018-05-19 09:52:32 [WARN ] learnlog4j.App (main:13) - here is warn
+2018-05-19 09:52:32 [WARN ] learnlog4j.App (main:13) - here is warn
+2018-05-19 09:52:32 [ERROR] learnlog4j.App (main:14) - here is error
+2018-05-19 09:52:32 [ERROR] learnlog4j.App (main:14) - here is error
+2018-05-19 09:52:32 [FATAL] learnlog4j.App (main:15) - here is fatal
+2018-05-19 09:52:32 [FATAL] learnlog4j.App (main:15) - here is fatal
+2018-05-19 09:55:55 [INFO ] learnlog4j.App (main:12) - here is info
+2018-05-19 09:55:55 [WARN ] learnlog4j.App (main:13) - here is warn
+2018-05-19 09:55:55 [ERROR] learnlog4j.App (main:14) - here is error
+2018-05-19 09:55:55 [FATAL] learnlog4j.App (main:15) - here is fatal
+2018-05-19 09:56:20 [DEBUG] learnlog4j.App (main:11) - here is debug
+2018-05-19 09:56:20 [INFO ] learnlog4j.App (main:12) - here is info
+2018-05-19 09:56:20 [WARN ] learnlog4j.App (main:13) - here is warn
+2018-05-19 09:56:20 [ERROR] learnlog4j.App (main:14) - here is error
+2018-05-19 09:56:20 [FATAL] learnlog4j.App (main:15) - here is fatal
+2018-05-19 10:42:00 [DEBUG] learnlog4j.App (main:12) - here is debug
+2018-05-19 10:42:00 [INFO ] learnlog4j.App (main:13) - here is info
+2018-05-19 10:42:00 [WARN ] learnlog4j.App (main:14) - here is warn
+2018-05-19 10:42:00 [ERROR] learnlog4j.App (main:15) - here is error
+2018-05-19 10:42:00 [FATAL] learnlog4j.App (main:16) - here is fatal
+2018-05-19 10:42:00 [DEBUG] impl.DefaultLogger (debugLevelTest:13) - debug level test
+2018-05-19 10:42:00 [DEBUG] impl.DefaultLogger (debugLevelTest:13) - debug level test
+2018-05-19 10:43:41 [DEBUG] learnlog4j.App (main:12) - here is debug
+2018-05-19 10:43:41 [INFO ] learnlog4j.App (main:13) - here is info
+2018-05-19 10:43:41 [WARN ] learnlog4j.App (main:14) - here is warn
+2018-05-19 10:43:41 [ERROR] learnlog4j.App (main:15) - here is error
+2018-05-19 10:43:41 [FATAL] learnlog4j.App (main:16) - here is fatal
+2018-05-19 10:43:41 [DEBUG] impl.DefaultLogger (debugLevelTest:13) - debug level test
+2018-05-19 10:43:53 [DEBUG] learnlog4j.App (main:12) - here is debug
+2018-05-19 10:43:53 [INFO ] learnlog4j.App (main:13) - here is info
+2018-05-19 10:43:53 [WARN ] learnlog4j.App (main:14) - here is warn
+2018-05-19 10:43:53 [ERROR] learnlog4j.App (main:15) - here is error
+2018-05-19 10:43:53 [FATAL] learnlog4j.App (main:16) - here is fatal
+2018-05-19 10:43:53 [DEBUG] learnlog4j.Ilogger (testDebug:20) - start test debug
+2018-05-19 10:44:40 [DEBUG] learnlog4j.App (main:12) - here is debug
+2018-05-19 10:44:40 [INFO ] learnlog4j.App (main:13) - here is info
+2018-05-19 10:44:40 [WARN ] learnlog4j.App (main:14) - here is warn
+2018-05-19 10:44:40 [ERROR] learnlog4j.App (main:15) - here is error
+2018-05-19 10:44:40 [FATAL] learnlog4j.App (main:16) - here is fatal
+2018-05-19 10:44:40 [DEBUG] learnlog4j.Ilogger (testDebug:20) - start test debug
+2018-05-19 10:44:40 [DEBUG] impl.DefaultLogger (debugLevelTest:13) - debug level test
+2018-05-19 10:47:01 [DEBUG] learnlog4j.App (main:12) - here is debug
+2018-05-19 10:47:01 [INFO ] learnlog4j.App (main:13) - here is info
+2018-05-19 10:47:01 [WARN ] learnlog4j.App (main:14) - here is warn
+2018-05-19 10:47:01 [ERROR] learnlog4j.App (main:15) - here is error
+2018-05-19 10:47:01 [FATAL] learnlog4j.App (main:16) - here is fatal
+2018-05-19 10:47:01 [DEBUG] learnlog4j.Ilogger (testDebug:20) - start test debug
+2018-05-19 10:47:01 [DEBUG] learnlog4j.Ilogger (testInfo:25) - start test info
+2018-05-19 10:47:01 [DEBUG] learnlog4j.Ilogger (testWarn:29) - start test warn
+2018-05-19 10:47:01 [DEBUG] learnlog4j.Ilogger (testError:33) - start test error
+2018-05-19 10:47:01 [DEBUG] learnlog4j.Ilogger (testFatal:37) - start test fatal
+2018-05-19 10:47:57 [DEBUG] learnlog4j.App (main:12) - here is debug
+2018-05-19 10:47:57 [INFO ] learnlog4j.App (main:13) - here is info
+2018-05-19 10:47:57 [WARN ] learnlog4j.App (main:14) - here is warn
+2018-05-19 10:47:57 [ERROR] learnlog4j.App (main:15) - here is error
+2018-05-19 10:47:57 [FATAL] learnlog4j.App (main:16) - here is fatal
+2018-05-19 10:47:57 [DEBUG] learnlog4j.Ilogger (testDebug:20) - start test debug
+2018-05-19 10:47:57 [DEBUG] learnlog4j.Ilogger (testInfo:25) - start test info
+2018-05-19 10:47:57 [DEBUG] learnlog4j.Ilogger (testWarn:29) - start test warn
+2018-05-19 10:47:57 [DEBUG] learnlog4j.Ilogger (testError:33) - start test error
+2018-05-19 10:47:57 [DEBUG] learnlog4j.Ilogger (testFatal:37) - start test fatal
+2018-05-19 10:48:18 [DEBUG] learnlog4j.App (main:12) - here is debug
+2018-05-19 10:48:18 [INFO ] learnlog4j.App (main:13) - here is info
+2018-05-19 10:48:18 [WARN ] learnlog4j.App (main:14) - here is warn
+2018-05-19 10:48:18 [ERROR] learnlog4j.App (main:15) - here is error
+2018-05-19 10:48:18 [FATAL] learnlog4j.App (main:16) - here is fatal
+2018-05-19 10:48:18 [DEBUG] learnlog4j.Ilogger (testDebug:20) - start test debug
+2018-05-19 10:48:18 [DEBUG] impl.DefaultLogger (debugLevelTest:13) - debug level test
+2018-05-19 10:48:18 [DEBUG] learnlog4j.Ilogger (testInfo:25) - start test info
+2018-05-19 10:48:18 [DEBUG] impl.DefaultLogger (infoLevelTest:19) - info level test
+2018-05-19 10:48:18 [DEBUG] learnlog4j.Ilogger (testWarn:29) - start test warn
+2018-05-19 10:48:18 [DEBUG] impl.DefaultLogger (warnLevelTest:24) - warn level test
+2018-05-19 10:48:18 [DEBUG] learnlog4j.Ilogger (testError:33) - start test error
+2018-05-19 10:48:18 [DEBUG] impl.DefaultLogger (errorLevelTest:29) - error level test
+2018-05-19 10:48:18 [DEBUG] learnlog4j.Ilogger (testFatal:37) - start test fatal
+2018-05-19 10:48:18 [DEBUG] impl.DefaultLogger (fatalLevelTest:34) - fatal level test
+2018-05-19 10:49:02 [INFO ] learnlog4j.App (main:13) - here is info
+2018-05-19 10:49:02 [WARN ] learnlog4j.App (main:14) - here is warn
+2018-05-19 10:49:02 [ERROR] learnlog4j.App (main:15) - here is error
+2018-05-19 10:49:02 [FATAL] learnlog4j.App (main:16) - here is fatal
+2018-05-19 10:49:02 [DEBUG] impl.DefaultLogger (debugLevelTest:13) - debug level test
+2018-05-19 10:49:02 [DEBUG] impl.DefaultLogger (infoLevelTest:19) - info level test
+2018-05-19 10:49:02 [DEBUG] impl.DefaultLogger (warnLevelTest:24) - warn level test
+2018-05-19 10:49:02 [DEBUG] impl.DefaultLogger (errorLevelTest:29) - error level test
+2018-05-19 10:49:02 [DEBUG] impl.DefaultLogger (fatalLevelTest:34) - fatal level test
+2018-05-19 10:50:21 [INFO ] learnlog4j.App (main:13) - here is info
+2018-05-19 10:50:21 [WARN ] learnlog4j.App (main:14) - here is warn
+2018-05-19 10:50:21 [ERROR] learnlog4j.App (main:15) - here is error
+2018-05-19 10:50:21 [FATAL] learnlog4j.App (main:16) - here is fatal
+2018-05-19 10:50:21 [DEBUG] impl.DefaultLogger (debugLevelTest:13) - debug level test
+2018-05-19 10:50:21 [DEBUG] impl.DefaultLogger (infoLevelTest:19) - info level test
+2018-05-19 10:50:21 [DEBUG] impl.DefaultLogger (warnLevelTest:24) - warn level test
+2018-05-19 10:50:21 [DEBUG] impl.DefaultLogger (errorLevelTest:29) - error level test
+2018-05-19 10:50:21 [DEBUG] impl.DefaultLogger (fatalLevelTest:34) - fatal level test
+2018-05-19 10:50:55 [DEBUG] learnlog4j.App (main:12) - here is debug
+2018-05-19 10:50:55 [INFO ] learnlog4j.App (main:13) - here is info
+2018-05-19 10:50:55 [WARN ] learnlog4j.App (main:14) - here is warn
+2018-05-19 10:50:55 [ERROR] learnlog4j.App (main:15) - here is error
+2018-05-19 10:50:55 [FATAL] learnlog4j.App (main:16) - here is fatal
+2018-05-19 10:50:55 [DEBUG] learnlog4j.Ilogger (testDebug:20) - start test debug
+2018-05-19 10:50:55 [DEBUG] impl.DefaultLogger (debugLevelTest:13) - debug level test
+2018-05-19 10:50:55 [DEBUG] learnlog4j.Ilogger (testInfo:25) - start test info
+2018-05-19 10:50:55 [DEBUG] impl.DefaultLogger (infoLevelTest:19) - info level test
+2018-05-19 10:50:55 [DEBUG] learnlog4j.Ilogger (testWarn:29) - start test warn
+2018-05-19 10:50:55 [DEBUG] impl.DefaultLogger (warnLevelTest:24) - warn level test
+2018-05-19 10:50:55 [DEBUG] learnlog4j.Ilogger (testError:33) - start test error
+2018-05-19 10:50:55 [DEBUG] impl.DefaultLogger (errorLevelTest:29) - error level test
+2018-05-19 10:50:55 [DEBUG] learnlog4j.Ilogger (testFatal:37) - start test fatal
+2018-05-19 10:50:55 [DEBUG] impl.DefaultLogger (fatalLevelTest:34) - fatal level test
+2018-05-19 11:05:04 [DEBUG] learnlog4j.App (main:12) - here is debug
+2018-05-19 11:05:04 [INFO ] learnlog4j.App (main:13) - here is info
+2018-05-19 11:05:04 [WARN ] learnlog4j.App (main:14) - here is warn
+2018-05-19 11:05:04 [ERROR] learnlog4j.App (main:15) - here is error
+2018-05-19 11:05:04 [FATAL] learnlog4j.App (main:16) - here is fatal
+2018-05-19 11:05:04 [DEBUG] learnlog4j.Ilogger (testDebug:20) - start test debug
+2018-05-19 11:05:04 [DEBUG] learnlog4j.Ilogger (testInfo:25) - start test info
+2018-05-19 11:05:04 [DEBUG] learnlog4j.Ilogger (testWarn:29) - start test warn
+2018-05-19 11:05:04 [DEBUG] learnlog4j.Ilogger (testError:33) - start test error
+2018-05-19 11:05:04 [DEBUG] learnlog4j.Ilogger (testFatal:37) - start test fatal
+2018-05-19 11:06:17 [DEBUG] learnlog4j.App (main:12) - here is debug
+2018-05-19 11:06:17 [INFO ] learnlog4j.App (main:13) - here is info
+2018-05-19 11:06:17 [WARN ] learnlog4j.App (main:14) - here is warn
+2018-05-19 11:06:17 [ERROR] learnlog4j.App (main:15) - here is error
+2018-05-19 11:06:17 [FATAL] learnlog4j.App (main:16) - here is fatal
+2018-05-19 11:06:17 [DEBUG] learnlog4j.Ilogger (testDebug:20) - start test debug
+2018-05-19 11:06:17 [DEBUG] learnlog4j.Ilogger (testInfo:25) - start test info
+2018-05-19 11:06:17 [DEBUG] learnlog4j.Ilogger (testWarn:29) - start test warn
+2018-05-19 11:06:17 [DEBUG] learnlog4j.Ilogger (testError:33) - start test error
+2018-05-19 11:06:17 [ERROR] impl.DefaultLogger (errorLevelTest:29) - error level test
+2018-05-19 11:06:17 [DEBUG] learnlog4j.Ilogger (testFatal:37) - start test fatal
+2018-05-19 11:06:17 [FATAL] impl.DefaultLogger (fatalLevelTest:34) - fatal level test
+2018-05-19 11:06:46 [INFO ] learnlog4j.App (main:13) - here is info
+2018-05-19 11:06:46 [WARN ] learnlog4j.App (main:14) - here is warn
+2018-05-19 11:06:46 [ERROR] learnlog4j.App (main:15) - here is error
+2018-05-19 11:06:46 [FATAL] learnlog4j.App (main:16) - here is fatal
+2018-05-19 11:06:46 [DEBUG] impl.DefaultLogger (debugLevelTest:13) - debug level test
+2018-05-19 11:06:46 [INFO ] impl.DefaultLogger (infoLevelTest:19) - info level test
+2018-05-19 11:06:46 [WARN ] impl.DefaultLogger (warnLevelTest:24) - warn level test
+2018-05-19 11:06:46 [ERROR] impl.DefaultLogger (errorLevelTest:29) - error level test
+2018-05-19 11:06:46 [FATAL] impl.DefaultLogger (fatalLevelTest:34) - fatal level test
+2018-05-19 11:08:27 [INFO ] learnlog4j.App (main:13) - here is info
+2018-05-19 11:08:27 [WARN ] learnlog4j.App (main:14) - here is warn
+2018-05-19 11:08:27 [ERROR] learnlog4j.App (main:15) - here is error
+2018-05-19 11:08:27 [FATAL] learnlog4j.App (main:16) - here is fatal
+2018-05-19 11:08:27 [WARN ] impl.DefaultLogger (warnLevelTest:24) - warn level test
+2018-05-19 11:08:27 [ERROR] impl.DefaultLogger (errorLevelTest:29) - error level test
+2018-05-19 11:08:27 [FATAL] impl.DefaultLogger (fatalLevelTest:34) - fatal level test
+2018-05-19 11:09:02 [ERROR] learnlog4j.App (main:15) - here is error
+2018-05-19 11:09:02 [FATAL] learnlog4j.App (main:16) - here is fatal
+2018-05-19 11:09:02 [WARN ] impl.DefaultLogger (warnLevelTest:24) - warn level test
+2018-05-19 11:09:02 [ERROR] impl.DefaultLogger (errorLevelTest:29) - error level test
+2018-05-19 11:09:02 [FATAL] impl.DefaultLogger (fatalLevelTest:34) - fatal level test
+2018-05-19 11:09:26 [WARN ] learnlog4j.App (main:14) - here is warn
+2018-05-19 11:09:26 [ERROR] learnlog4j.App (main:15) - here is error
+2018-05-19 11:09:26 [FATAL] learnlog4j.App (main:16) - here is fatal
+2018-05-19 11:09:26 [WARN ] impl.DefaultLogger (warnLevelTest:24) - warn level test
+2018-05-19 11:09:26 [ERROR] impl.DefaultLogger (errorLevelTest:29) - error level test
+2018-05-19 11:09:26 [FATAL] impl.DefaultLogger (fatalLevelTest:34) - fatal level test
+2018-05-19 11:10:05 [WARN ] learnlog4j.App (main:14) - here is warn
+2018-05-19 11:10:05 [ERROR] learnlog4j.App (main:15) - here is error
+2018-05-19 11:10:05 [FATAL] learnlog4j.App (main:16) - here is fatal
+2018-05-19 11:10:05 [DEBUG] impl.DefaultLogger (debugLevelTest:13) - debug level test
+2018-05-19 11:10:05 [INFO ] impl.DefaultLogger (infoLevelTest:19) - info level test
+2018-05-19 11:10:05 [WARN ] impl.DefaultLogger (warnLevelTest:24) - warn level test
+2018-05-19 11:10:05 [ERROR] impl.DefaultLogger (errorLevelTest:29) - error level test
+2018-05-19 11:10:05 [FATAL] impl.DefaultLogger (fatalLevelTest:34) - fatal level test
+2018-05-19 11:13:30 [WARN ] learnlog4j.App (main:14) - here is warn
+2018-05-19 11:13:30 [ERROR] learnlog4j.App (main:15) - here is error
+2018-05-19 11:13:30 [FATAL] learnlog4j.App (main:16) - here is fatal
+2018-05-19 11:13:30 [DEBUG] impl.DefaultLogger (debugLevelTest:13) - debug level test
+2018-05-19 11:13:30 [INFO ] impl.DefaultLogger (infoLevelTest:19) - info level test
+2018-05-19 11:13:30 [WARN ] learnlog4j.Ilogger (testWarn:29) - start test warn
+2018-05-19 11:13:30 [WARN ] impl.DefaultLogger (warnLevelTest:24) - warn level test
+2018-05-19 11:13:30 [ERROR] learnlog4j.Ilogger (testError:33) - start test error
+2018-05-19 11:13:30 [ERROR] impl.DefaultLogger (errorLevelTest:29) - error level test
+2018-05-19 11:13:30 [FATAL] learnlog4j.Ilogger (testFatal:37) - start test fatal
+2018-05-19 11:13:30 [FATAL] impl.DefaultLogger (fatalLevelTest:34) - fatal level test
+2018-05-19 11:14:03 [DEBUG] learnlog4j.App (main:12) - here is debug
+2018-05-19 11:14:03 [INFO ] learnlog4j.App (main:13) - here is info
+2018-05-19 11:14:03 [WARN ] learnlog4j.App (main:14) - here is warn
+2018-05-19 11:14:03 [ERROR] learnlog4j.App (main:15) - here is error
+2018-05-19 11:14:03 [FATAL] learnlog4j.App (main:16) - here is fatal
+2018-05-19 11:14:03 [DEBUG] learnlog4j.Ilogger (testDebug:20) - start test debug
+2018-05-19 11:14:03 [INFO ] learnlog4j.Ilogger (testInfo:25) - start test info
+2018-05-19 11:14:03 [WARN ] learnlog4j.Ilogger (testWarn:29) - start test warn
+2018-05-19 11:14:03 [WARN ] impl.DefaultLogger (warnLevelTest:24) - warn level test
+2018-05-19 11:14:03 [ERROR] learnlog4j.Ilogger (testError:33) - start test error
+2018-05-19 11:14:03 [ERROR] impl.DefaultLogger (errorLevelTest:29) - error level test
+2018-05-19 11:14:03 [FATAL] learnlog4j.Ilogger (testFatal:37) - start test fatal
+2018-05-19 11:14:03 [FATAL] impl.DefaultLogger (fatalLevelTest:34) - fatal level test
+2018-05-19 12:20:25 [ERROR] implementation.IMyLogger (testError:34) - start test error
+2018-05-19 12:20:25 [ERROR] implementation.DefaultLogger (errorLevelTest:29) - error level test
+2018-05-19 12:21:45 [DEBUG] implementation.IMyLogger (testDebug:21) - start test debug
+2018-05-19 12:21:45 [DEBUG] implementation.DefaultLogger (debugLevelTest:13) - debug level test
+2018-05-19 12:21:45 [INFO ] implementation.IMyLogger (testInfo:26) - start test info
+2018-05-19 12:21:45 [INFO ] implementation.DefaultLogger (infoLevelTest:19) - info level test
+2018-05-19 12:21:45 [WARN ] implementation.IMyLogger (testWarn:30) - start test warn
+2018-05-19 12:21:45 [WARN ] implementation.DefaultLogger (warnLevelTest:24) - warn level test
+2018-05-19 12:21:45 [ERROR] implementation.IMyLogger (testError:34) - start test error
+2018-05-19 12:21:45 [ERROR] implementation.DefaultLogger (errorLevelTest:29) - error level test
+2018-05-19 12:22:11 [DEBUG] implementation.IMyLogger (testDebug:21) - start test debug
+2018-05-19 12:22:11 [DEBUG] implementation.DefaultLogger (debugLevelTest:13) - debug level test
+2018-05-19 12:22:11 [INFO ] implementation.IMyLogger (testInfo:26) - start test info
+2018-05-19 12:22:11 [INFO ] implementation.DefaultLogger (infoLevelTest:19) - info level test
+2018-05-19 12:22:11 [WARN ] implementation.IMyLogger (testWarn:30) - start test warn
+2018-05-19 12:22:11 [WARN ] implementation.DefaultLogger (warnLevelTest:24) - warn level test
+2018-05-19 12:22:11 [ERROR] implementation.IMyLogger (testError:34) - start test error
+2018-05-19 12:22:11 [ERROR] implementation.DefaultLogger (errorLevelTest:29) - error level test
+2018-05-19 12:25:22 [DEBUG] implementation.IMyLogger (testDebug:21) - start test debug
+2018-05-19 12:25:22 [DEBUG] implementation.DefaultLogger (debugLevelTest:13) - debug level test
+2018-05-19 12:25:22 [INFO ] implementation.IMyLogger (testInfo:26) - start test info
+2018-05-19 12:25:22 [INFO ] implementation.DefaultLogger (infoLevelTest:19) - info level test
+2018-05-19 12:25:22 [WARN ] implementation.IMyLogger (testWarn:30) - start test warn
+2018-05-19 12:25:22 [WARN ] implementation.DefaultLogger (warnLevelTest:24) - warn level test
+2018-05-19 12:25:22 [ERROR] implementation.IMyLogger (testError:34) - start test error
+2018-05-19 12:25:22 [ERROR] implementation.DefaultLogger (errorLevelTest:29) - error level test
+2018-05-19 12:25:22 [DEBUG] implementation.IMyLogger (testDebug:21) - start test debug
+2018-05-19 12:25:22 [INFO ] implementation.IMyLogger (testInfo:26) - start test info
+2018-05-19 12:25:22 [WARN ] implementation.IMyLogger (testWarn:30) - start test warn
+2018-05-19 12:25:22 [ERROR] implementation.IMyLogger (testError:34) - start test error
